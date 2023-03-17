@@ -14,8 +14,8 @@ public class ScreenshotBot {
         // Set the path to the folder where the screenshots will be saved
         String folderPath = ""; // your path where to save screenshots
 
-        // Set the dimensions of the field to capture (x, y, width, height)
-        Rectangle captureRect = new Rectangle(7, 248, 1500, 851);
+        // Set the dimensions of the field to capture (x, y, width, height) from cursorCoordinates.class
+        Rectangle captureRect = new Rectangle(3, 240, 1500, 835);
         // 1189,1146 7, 479
         // Create a new Robot object
         Robot robot = new Robot();

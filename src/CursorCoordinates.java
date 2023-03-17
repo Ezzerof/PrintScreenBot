@@ -15,7 +15,7 @@ public class CursorCoordinates {
         Point p = MouseInfo.getPointerInfo().getLocation();
         int x = (int) p.getX();
         int y = (int) p.getY();
-        System.out.println("Enter this cords in the Screenshot class: x = " + x + ", y = " + y);
+        System.out.println("x = " + x + ", y = " + y);
         System.out.println("Move to the second point now");
 
         try {
@@ -41,8 +41,7 @@ public class CursorCoordinates {
             height = y - secondPointY;
         }
 
-
-        System.out.println("width = " + width + " ,height = " + height);
+        System.out.printf("\nEnter following cords into Screenshot class: \nx = %d, y = %d, width = %d, height = %d", x, y, width, height);
 
     }
 
